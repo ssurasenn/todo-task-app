@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern To-do App</title>
+    <link rel="icon" href="/image/checklist.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+  <body>
+    <div class="app-container">
+      <!-- Header Section -->
+      <header class="header">
+        <h1>To-Do App</h1>
+        <p>Add your tasks and remind yourself about them</p>
+      </header>
+
+      <!-- Task Input Form -->
+      <section>
+        <div id="todoForm" class="todo-form">
+          <input
+            type="text"
+            id="todoTitle"
+            placeholder="Enter your task"
+            required
+          />
+          <button id="addTask">Add Task</button>
+        </div>
+      </section>
+
+      <!-- Task List Section -->
+      <section class="task-list-section">
+        <h2>Yous Task</h2>
+        <div class="task-list">
+          <!-- <div class="task-wrapper">
+            <div class="task-info">
+              <h3>Front-End Dev.</h3>
+              <span class="status not-started">Not Started</span>
+            </div>
+            <select id="todoStatus" required>
+              <option value="not-started">Not Started</option>
+              <option value="in-progress">In Progress</option>
+              <option value="completed">Completed</option>
+            </select>
+            <button class="btn-delete">Del</button>
+          </div>
+
+          <div class="task-wrapper">
+            <div class="task-info">
+              <h3>Thailand.</h3>
+              <span class="status in-progress">In Progress</span>
+            </div>
+            <select id="todoStatus" required>
+              <option value="not-started">Not Started</option>
+              <option value="in-progress">In Progress</option>
+              <option value="completed">Completed</option>
+            </select>
+            <button class="btn-delete">Del</button>
+          </div>
+
+          <div class="task-wrapper">
+            <div class="task-info">
+              <h3>KohLarn.</h3>
+              <span class="status completed">Compeleted</span>
+            </div>
+            <select id="todoStatus" required>
+              <option value="not-started">Not Started</option>
+              <option value="in-progress">In Progress</option>
+              <option value="completed">Completed</option>
+            </select>
+            <button class="btn-delete">Del</button>
+          </div> -->
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
